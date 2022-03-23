@@ -7,8 +7,18 @@
 
 Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
 
-## Official Documentation
+## User List Requirements
+* The endpoint should accept sort parameters to sort by one of name, gender, or age
+in ascending or descending order.
+* The endpoint should accept a filter parameter to filter by gender.
+* The response should return metadata that contains the total number of
+characters that match the criteria along with the total age of the characters that
+match the criteria.
+* The total height should be provided both in months and in years. For instance, 28
+months is 2.5 in years.
 
+
+## Official Documentation
 Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
 
 ## Contributing
