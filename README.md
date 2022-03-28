@@ -6,6 +6,24 @@
 [![License](https://img.shields.io/packagist/l/laravel/lumen)](https://packagist.org/packages/laravel/lumen-framework)
 
 Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+## API EndpointS
+### GET
+* View all the authors 
+* View one author 
+* view all books 
+* View books with respective to their authors 
+* View all comments 
+* View comments in relation to books 
+### PUT
+* Authors
+* Books 
+### POST
+* Post authors 
+* Post books 
+* Comments
+### DELETE
+* Authors
+* Books 
 
 ## User List Requirements
 * The endpoint should accept sort parameters to sort by one of name, gender, or age
